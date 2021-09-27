@@ -1,0 +1,9 @@
+Package: com.hjk.redditwallpaper
+Name: redditwallpaper
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Sets a random image from a subreddit as your wallpaper
+Maintainer: hjk
+Author: hjk
+Section: Tweaks
+Depends: mobilesubstrate, libactivator

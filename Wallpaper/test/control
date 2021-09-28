@@ -1,9 +1,0 @@
-Package: com.hjk.redditwallpaper
-Name: redditwallpaper
-Version: 0.0.1
-Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: hjk
-Author: hjk
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)

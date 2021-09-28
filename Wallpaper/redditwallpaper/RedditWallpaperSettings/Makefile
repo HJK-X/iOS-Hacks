@@ -1,11 +1,12 @@
 ARCHS = armv7 arm64
+
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = RedditWallpaper
-RedditWallpaper_FILES = RedditWallpaper.mm
-RedditWallpaper_INSTALL_PATH = /Library/PreferenceBundles
-RedditWallpaper_FRAMEWORKS = UIKit
-RedditWallpaper_PRIVATE_FRAMEWORKS = Preferences
+$(BUNDLE_NAME)_FILES = RedditWallpaper.mm
+$(BUNDLE_NAME)_INSTALL_PATH = /Library/PreferenceBundles
+$(BUNDLE_NAME)_FRAMEWORKS = UIKit
+$(BUNDLE_NAME)_PRIVATE_FRAMEWORKS = Preferences
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

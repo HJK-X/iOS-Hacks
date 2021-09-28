@@ -1,4 +1,6 @@
 #import <Preferences/PSListController.h>
+static NSString *const settingsPath = @"/var/mobile/Library/Preferences/com.hjk.redditwallpaper.plist";
+static NSDictionary *prefs;
 
 @interface RedditWallpaperListController: PSListController {
 }

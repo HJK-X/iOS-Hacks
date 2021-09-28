@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>title</key>
+	<string>RedditWallpaper</string>
   <key>entry</key>
   <dict>
     <key>bundle</key>
@@ -10,12 +12,11 @@
     <string>PSLinkCell</string>
     <key>detail</key>
     <string>RedditWallpaperListController</string>
+    <key>isController</key>
+    <key>label</key>
+    <string>RedditWallpaper</string>
     <key>icon</key>
     <string>RedditWallpaper.png</string>
-    <key>isController</key>
-    <string>1</string>
-    <key>label</key>
-    <string>RedditWallpaper Cheats</string>
   </dict>
 </dict>
 </plist>

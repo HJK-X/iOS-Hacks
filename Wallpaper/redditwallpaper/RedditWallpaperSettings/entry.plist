@@ -13,6 +13,7 @@
     <key>detail</key>
     <string>RedditWallpaperListController</string>
     <key>isController</key>
+    <true/>
     <key>label</key>
     <string>RedditWallpaper</string>
     <key>icon</key>

@@ -28,9 +28,25 @@
 		</dict>
 		<dict>
 			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Activation Methods</string>
+			<key>isController</key>	
+			<true/>
+			<key>bundle</key> 
+			<string>LibActivator</string>
+			<key>activatorListener</key>
+			<string>com.hjk.redditwallpaper.activator</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
 			<string>PSTextCell</string>
 			<key>label</key>
-			<string>Made by hjk.</string>
+			<string>Made by HJK</string>
 		</dict>
 	</array>
 	<key>title</key>

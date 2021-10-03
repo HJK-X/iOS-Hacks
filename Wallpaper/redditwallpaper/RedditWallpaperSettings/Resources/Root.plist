@@ -31,10 +31,12 @@
 		<dict>
 			<key>cell</key>
 			<string>PSEditTextCell</string>
-			<key>default</key>
-			<string>/r/</string>
 			<key>defaults</key>
 			<string>com.hjk.redditwallpaper</string>
+			<key>key</key>
+			<string>subreddit</string>
+			<key>label</key>
+			<string>/r/</string>
 		</dict>
 		<dict>
 			<key>cell</key>

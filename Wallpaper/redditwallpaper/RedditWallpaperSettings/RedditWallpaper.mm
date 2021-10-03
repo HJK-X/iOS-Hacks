@@ -1,6 +1,4 @@
 #import <Preferences/PSListController.h>
-static NSString *const settingsPath = @"/var/mobile/Library/Preferences/com.hjk.redditwallpaper.plist";
-static NSDictionary *prefs;
 
 @interface RedditWallpaperListController: PSListController {
 }
@@ -13,12 +11,6 @@ static NSDictionary *prefs;
 	}
 
 	return _specifiers;
-}
-
-- (void)wallpaper {
-    prefs = [NSDictionary dictionaryWithContentsOfFile:settingsPath];
-    NSString* redditUrl = [prefs objectForKey:@"url"];
-    NSLog(@"%@",redditUrl);
 }
 @end
 

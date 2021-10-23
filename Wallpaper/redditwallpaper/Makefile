@@ -9,8 +9,9 @@ GO_EASY_ON_ME = 1
 
 TWEAK_NAME = RedditWallpaper
 $(TWEAK_NAME)_FILES = Tweak.xm
-$(TWEAK_NAME)_FRAMEWORKS = UIKit CoreGraphics
+$(TWEAK_NAME)_FRAMEWORKS = UIKit CoreGraphics MediaPlayer AVFoundation
 $(TWEAK_NAME)_PRIVATE_FRAMEWORKS = PersistentConnection PhotoLibrary SpringBoardFoundation
+$(TWEAK_NAME)_LIBRARIES = gcuniversal
 $(TWEAK_NAME)_LDFLAGS = -lactivator
 
 
